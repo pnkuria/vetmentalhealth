@@ -1,9 +1,13 @@
 *{
-    background-image: url(https://www.freepik.com/free-photo/blue-wall-background_4100968.htm#query=background&position=17&from_view=keyword&track=sph&uuid=9307afd7-bf2d-451f-b826-b8d89a42ec25);
+    
     font-family: 'Nova Square', sans-serif;
   }
   
-  
+  body{
+    background-image: url(/image/pexels-eberhard-grossgasteiger-2088205.jpg);
+    background-size: cover;
+    background-position: center;
+  }
   .nav-bar ul{
       display: flex;
       color: black;
@@ -56,9 +60,7 @@
     border-radius: 335px;
     overflow: hidden;
   }
-  .circle {
-    height: 50px;
-    width: 50px;
-    background-color: #555;
-    border-radius: 50%;
-  }
+.nav-bar:hover{
+    background-color: white;
+    opacity: 80%;
+}
