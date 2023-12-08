@@ -39,31 +39,15 @@
     color: black;
     
   }
-  .body{
-    padding-top: 75px;
-    justify-content: center;
-  }
-  .info{
-    width: 350px;
-    font-family: 'Vina Sans', sans-serif;
-    padding: 20px;
-    margin: 50px;
-  }
-  
-  .body{
-    display: flex;
-    
-  }
-  .body img{
-    height: 410px;
-    width: 430px;
-    border-radius: 335px;
-    overflow: hidden;
-  }
-.nav-bar:hover{
+  .nav-bar:hover{
     background-color: white;
     opacity: 80%;
 }
 i{
   padding: 3px;
+}
+
+.info{
+    padding-top: 45px;
+    margin: 10px;
 }
