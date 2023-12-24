@@ -37,31 +37,29 @@
   .nav-bar a{
     text-decoration: none;
     color: black;
-    
   }
-  .body{
-    padding-top: 75px;
-    justify-content: center;
-  }
-  .info{
-    width: 350px;
-    font-family: 'Vina Sans', sans-serif;
-    padding: 20px;
-    margin: 50px;
-  }
-  
-  .body{
-    display: flex;
-    
-  }
-  .body img{
-    height: 500px;
-    width: 600px;
-  }
-.nav-bar:hover{
+  .nav-bar:hover{
     background-color: white;
     opacity: 80%;
 }
-i{
-  padding: 3px;
+  .contacts{
+    margin: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 500px;
+    width: 1000px;
+    justify-content: center;
+    align-content: center;
+    border: solid 2px;
+  }
+.contacts input{
+    justify-content: center;
+    padding: 5px;
+    margin-top: 5px;
+    width: 200px;
+}
+#message{
+    height: 300px;
+    justify-content: start;
 }
